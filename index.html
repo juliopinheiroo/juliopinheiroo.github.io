@@ -1,20 +1,132 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pt-br">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="description>
+    <meta name="description" content="Descrição do site">
     <title>Julio Pinheiro</title>
-	<link rel="icon" type="image/png" href="https://storage.googleapis.com/r831-wordpress/r831site/logo_r831.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <style>
-  </main>
-  <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-	  </span>
+</head>
+<style>
+    .imagem {
+        max-width: 200px;
+        height: auto;
+    }
+</style>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Julio Pinheiro</h1>
+    </header>
+    
+    <main class="container my-5">
+        <section>
+            <p>Sou um profissional multidisciplinar com vasta experiência nas áreas de tecnologia e produção de conteúdo digital.</p>
+			<p>Em TI, atuo no suporte e aprimoramento de processos em uma empresa de comércio e distribuição, impulsionando a eficiência
+			operacional por meio da implementação de automações inteligentes, softwares proprietários e soluções escaláveis na nuvem.
+			eu trabalho é focado em resultados, colaborando com o time de vendas na definição de estratégias comerciais e na apresentação
+			de produtos em lojas online.</p>
+			<p>Paralelamente, sou redator e editor em um portal especializado em videogames, desenvolvendo conteúdo crítico, informativo e
+			analítico sobre a indústria de jogos. Sou movido pela paixão pela escrita e pela vontade de ajudar, e atualmente curso jornalismo
+			ara aprimorar minhas habilidades e compartilhar meu conhecimento com o objetivo de impactar positivamente a sociedade</p>
+        </section>
+
+	<section class="bg-secondary text-white p-4">
+            <center><h2>Experiência</h2></center>
+			
+			<p>Atuo no setor de tecnologia de uma empresa de comércio e distribuição, prestando suporte aos demais departamentos e aprimorando processos
+			por meio de automações eficientes, utilizando plataformas online, softwares proprietários desenvolvidos em Python e sistemas baseados no Google Cloud.</p>
+			<p>Tenho experiência na implementação e integração de ERPs como Bling e BaseLinker, conectando mais de 10 plataformas distintas de comércio eletrônico,
+			além do gerenciamento de uma plataforma própria baseada em WooCommerce.</p>
+			<p>Também colaboro diretamente com o setor de vendas no desenvolvimento de estratégias comerciais fundamentadas em estudos e análises do comportamento dos clientes,
+			do funcionamento do SEO em cada plataforma e das pesquisas no Google.</p>
+			<p>Meu foco é alinhar tecnologia e inteligência de mercado para potencializar os resultados da empresa, organizando toda a estrutura
+			interna e coordenando a equipe na aprendizagem e no uso eficiente dos sistemas.</p>
+			<p>Também atuo como redator em um site especializado em videogames, desenvolvendo críticas,
+			notícias e artigos opinativos e informativos sobre o universo dos jogos. Além da produção de conteúdo,
+			colaboro na revisão de textos escritos pelos outros membros da equipe, auxiliando na estruturação, clareza e coesão dos materiais.</p>
+			<p>Busco extrair o melhor de cada redator, oferecendo sugestões, dicas e suporte no uso de plataformas como WordPress, Trello e ClickUp,
+			otimizando o fluxo de trabalho e garantindo a qualidade do conteúdo publicado. Meu objetivo é contribuir para a entrega de análises aprofundadas
+			e informações relevantes para a comunidade gamer brasileira.</p>
+        
+		</section>
+		<br>
+<section style="background-color: #333; color: white; padding: 20px;">
+            <center><h2>Projetos desenvolvidos</h2></center>
+
+        <h3>Lista de separação com Python e AppSheet</h3>
+
+        <p>Nesse projeto, utilizei a plataforma AppSheet, fornecida pelo Google Workspace, para transformar planilhas do Google Sheets em aplicativos Android e construir um sistema de separação de produtos.</p>
+		<p>Para alimentar os dados, desenvolvi uma aplicação complementar em Python que consulta a API da Baselinker (uma plataforma de gerenciamento de pedidos em marketplaces) e obtém automaticamente as informações dos pedidos pendentes,
+		organizando-os de acordo com a quantidade de produtos distintos a serem separados diariamente.</p>
+		<p>Adicionalmente, criei uma solução para a listagem de produtos destinados ao estoque Full do Mercado Livre. Essa aplicação converte o arquivo PDF fornecido pela plataforma em uma planilha compatível com o formato utilizado no AppSheet, garantindo atualização automática no Google Sheets.</p>
+		<p>Com poucos cliques, o usuário pode executar todo o processo, proporcionando intuitividade e agilidade à operação.</p>
     </div>
-  </footer>
+
+       <h3>Conversão de dados de uma planilha para etiquetas</h3>
+        <p>Nesse projeto, recebi a missão de transformar dados de produtos listados em uma planilha em etiquetas compatíveis com as impressoras térmicas da
+		Zebra, utilizando a linguagem de programação ZPL, de forma massiva, para otimizar a organização interna do estoque.</p>
+		<p>Para isso, desenvolvi uma integração entre Python e Google Sheets, permitindo a extração automática das informações de vários campos
+		referentes aos itens e a conversão de cada um em uma etiqueta legível para as impressoras Zebra. O sistema gera um arquivo completo com
+		os dados formatados corretamente, pronto para impressão.</p>
+		<p>O principal objetivo do projeto foi economizar tempo da equipe, evitando a necessidade de criar etiquetas manualmente
+		por meio das ferramentas nativas da Zebra. Com essa solução, foi possível otimizar o fluxo de trabalho e promover maior eficiência interna.</p>
+    
+	<h3>Câmera IP para Webcam</h3>
+        <p>NessNesse projeto, foi necessário transformar uma câmera IP de monitoramento no padrão ONVIF em uma webcam tradicional do Windows, compatível com todas as aplicações existentes.
+		O próprio sistema operacional da Microsoft já oferece essa funcionalidade, mas de uma forma não suficientemente robusta.</p>
+		<p>Por isso, foi necessário desenvolver um sistema em Python, utilizando bibliotecas da comunidade, que converte o sinal RTSP enviado pela câmera na rede e o reinterpreta para um sinal no padrão DirectShow.
+		O sistema também inclui funcionalidades de reconexão automática e mecanismos de sincronização para combater problemas de latência causados pela rede.</p>
+		<p>Com isso, foi possível dar uma finalidade secundária a um dispositivo que antes era restrito a apenas uma atividade, expandindo as possibilidades de uso.</p>
+
+    </div>
+</div>
+        </section>
+		<br>
+		<section style="background-color: #002147; color: white; padding: 20px;">
+    
+	<center><h2>Textos produzidos</h2></center>
+	
+	<h3><a href="https://jogandocasualmente.com.br/revisitando-rock-band-3/" target="_blank" style="color: white; text-decoration: none;">Revisitando Rock Band 3</a></h3> 
+	<p>Desenvolvi um texto analítico sobre os motivos que me levam a gostar do jogo Rock Band 3, um game musical.</p>
+	<p>Para isso, busquei contextualizar o leitor, falando um pouco sobre a história do gênero e explicando as razões que levaram à criação da franquia, assim como os acontecimentos envolvendo suas produtoras. Também detalhei os diferenciais do gênero,
+	explicando o funcionamento da jogabilidade, o conteúdo oferecido e, por fim, apresentei uma reflexão sobre os fatores que contribuíram para o declínio financeiro do gênero de jogos musicais e as dificuldades que esse tipo de jogo enfrenta para se
+	tornar acessível aos jogadores brasileiros.</p>
+	<p>Através deste texto, senti que consegui transmitir de maneira sucinta e compreensiva minha paixão por esse jogo e pelo gênero, ao mesmo tempo em que informei os leitores sobre a história por trás do desenvolvimento desses jogos.</p>
+	
+	<h3><a href="https://jogandocasualmente.com.br/coluna-problema-terror-assimetrico/" target="_blank" style="color: white; text-decoration: none;">O problema do terror assimétrico</a></h3> 
+	<p>Por meio deste texto opinativo, compartilhei minhas razões pelas quais jogos de terror online não são tão interessantes para mim.</p>
+	<p>Comecei contextualizando os leitores ao explicar o que é exatamente um jogo de terror assimétrico, detalhando suas características principais
+	o funcionamento das dinâmicas entre jogadores, a fim de que pudessem entender claramente do que se trata o gênero. Em seguida, expus minha opinião sobre esse tipo de jogo, levantando pontos que, para mim, tornam a experiência menos imersiva e mais frustrante.
+	Também procurei apresentar um contraponto ao que havia dito, analisando se esse contraponto funcionou ou não, conforme meu ponto de vista</p>
+	<p>Com isso, consegui expor minha opinião de forma compreensiva, bem fundamentada e convidativa à reflexão, ao mesmo tempo em que incentivei os leitores a pensarem sobre as diferentes abordagens desse gênero e a refletirem sobre suas próprias experiências.</p>
+	
+	<h3><a href="https://jogandocasualmente.com.br/resident-evil-e-multiplayer-uma-relacao-complicada/" target="_blank" style="color: white; text-decoration: none;">Resident Evil e multiplayer, uma relação complicada</a></h3> 
+	<p>Através deste texto, analisei a tentativa dos produtores da franquia Resident Evil de se reinventar e tornar os jogos relevantes novamente, após um período de desgaste, em uma época em que a indústria de jogos estava passando por avanços importantes e ganhando inovações que até hoje impactam os jogadores.</p>
+	<p>Utilizando fontes que fundamentam os argumentos apresentados, contextualizei o estado da franquia no momento em que os jogos analisados foram lançados, explicando os problemas de desenvolvimento enfrentados por um dos exemplos, analisando sua performance financeira e os impactos para a franquia como um todo.</p>
+	<p>Em seguida, descrevi uma tentativa bem-sucedida de reviver a franquia, ainda analisando o contexto geral da série de jogos. Abordei o que levou a empresa do fracasso ao sucesso, e depois de volta ao fracasso, levantando possíveis motivos que explicam essas oscilações. De forma opinativa, também sugeri algumas possíveis abordagens para melhorar a situação.</p>
+	<p>Neste texto, o contexto histórico foi analisado sob diferentes perspectivas, considerando também o panorama geral da indústria de jogos. As fontes utilizadas permitem que os leitores verifiquem as informações, garantindo uma análise sólida e convidando ao debate sobre a situação da franquia.</p>
+	
+	</section>
+    </main>
+	
+	
+<footer class="bg-dark text-white text-center py-4">
+    <h1>Contato</h1>
+<div class="text-center">
+    <a href="https://www.linkedin.com/in/juliopinheiroo/" target="_blank" style="display: inline-block; margin-right: 20px;">
+        <img src="asset/icon-linkedin.png" alt="LinkedIn" style="width: 75px;">
+    </a>
+    
+    <a href="mailto:juliopinheiroo23456@gmail.com" target="_blank" style="display: inline-block;">
+        <img src="asset/icon-email.png" alt="E-mail" style="width: 75px;">
+    </a>
+</div>
+</div>
+<br>
+<br>
+
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
